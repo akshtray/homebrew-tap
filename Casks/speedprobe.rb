@@ -31,7 +31,7 @@ cask "speedprobe" do
     skip "Auto-generated on release."
   end
 
-  binaries ["speedprobe"]
+  binary "speedprobe"
 
   postflight do
     if OS.mac?
